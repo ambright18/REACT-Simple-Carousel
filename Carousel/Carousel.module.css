@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: hsl(0, 10%, 40%);
+
+}
+h1{
+    color: whitesmoke;
+}
+.carousel {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    min-width: 50%;
+    height: 60vh;
+    font-size: 50px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 5px solid hsl(0, 0%, 49%);
+    border-radius: 10px;
+    background-color: black;
+}
+.leftArrow, 
+.rightArrow {
+    position: absolute;
+    z-index: 1;
+    font-size: 3.5rem;
+    top: 50%;
+    padding: 4px 8px;
+    cursor: pointer;
+    user-select: none;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.leftArrow {
+    left: 5%;
+}
+.rightArrow {
+    right: 5%;
+}
